@@ -1,0 +1,93 @@
+body{
+    background-image: url(octagon-image.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: ufc;
+    src: url(Sternbach.otf);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title{
+    color:red;
+    font-size:4.5rem;
+    margin:1em 0 0 0;
+}
+#trivia-question{
+    color:white;
+}
+#generate-button{
+    display: block;
+    padding:1rem 2rem;
+    font-size: 1.5rem;
+    background-color: red;
+    color:white;
+    border-radius: 8px;
+    border: none;
+}
+#trivia-form{
+    margin-top:1em;
+}
+#trivia-form input:hover{
+    cursor: pointer;
+}
+
+.input-wrong{
+    background-color: red;
+    color: white;
+}
+.input-correct{
+    background-color:green;
+    color:white;
+}
+
+input{
+    margin:0.5em 0 0.5em 0;
+    
+}
+.lower-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#question-count{
+    margin-right: 2em;
+}
+#answer-count{
+    margin-right: 2em;
+}
+#next-question-btn{
+    display: none;
+}
+.ufc-font{
+    font-family: ufc;
+    color:red;
+}
+input{
+    opacity: 0;
+}
+#question-count,#answer-count{
+    color:white;
+}
+.question-count-container,.score-container{
+    opacity: 0;
+    color:white;
+}
+.question-count-container p,.score-container p {
+    margin:0 1em 0 0;
+}
+.score-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}

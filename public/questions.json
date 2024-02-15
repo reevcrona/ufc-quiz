@@ -1,0 +1,22 @@
+[
+    {
+        "question":"How long did it take Conor McGregor to defeat Jose Aldo at UFC 194?",
+        "options":["30 seconds","13 seconds","15 seconds","45 seconds"],
+        "answer":"13 seconds"
+    },
+    {
+        "question":"Who has the most wins in the UFC?",
+        "options":["Jim Miller","Anderi Arlovski","Donald Cerrone","Neil Magny"],
+        "answer":"Jim Miller"
+    },
+    {
+        "question":"Who Has the Most Wins by Submission in the UFC?",
+        "options":["Royce Graice","Demian Maia","Charles Oliveria","Gunnar Nelson"],
+        "answer":"Charles Oliveria"
+    },
+    {
+        "question":"Who has the fastest knockout in UFC history?",
+        "options":["Don Frye","Leon Edwards","Duane Ludwig","Jorge Masvidal"],
+        "answer":"Jorge Masvidal"
+    }
+]
